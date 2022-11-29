@@ -1,0 +1,25 @@
+/* NAV BAR */
+.navbar{
+    background-color: #222625 !important;
+}
+
+.dropdown-menu{
+    background-color: #222625 !important;
+}
+
+.nav-link{
+    color:#86c232 !important;
+
+}
+
+.nav-link:hover{
+    color:#61892f !important;
+}
+
+.dropdown-item{
+    color:#86c232 !important;
+}
+
+.dropdown-item:hover{
+    color:#61892f !important;
+}

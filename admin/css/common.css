@@ -1,0 +1,136 @@
+:root {
+    /* --teal: #2ec1ac;
+    --teal_hover: #279e8c; */
+    --dark: #222625;
+    --green: #61892f;
+    --green-contrast: #86c232;
+    --light:#474b4f;
+
+}
+*{
+    font-family: 'Lobster', sans-serif;
+}
+
+.h-font{
+    font-family: 'Lobster', cursive;
+}
+
+.custom-bg{
+    background-color: var(--green-contrast);
+    border: 1px solid var(--green-contrast);
+}
+
+.custom-bg:hover{
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.custom-alert{
+    position: fixed;
+    top:25px;
+    right: 25px;
+}
+
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+}
+
+.bg-login{
+    background-color: #474b4f;
+    
+}
+
+.login-form{
+    background-color: var(--green-contrast);
+}
+
+.btn{
+    background-color: rgba(34, 38, 37);
+    color: var(--green);
+    font-family: 'Lobster';
+}
+
+.btn:hover{
+    background-color: rgba(34, 38, 37,0.8);
+    color: var(--green-contrast);
+}
+
+.bg-h4{
+    background-color: #222625;
+    color: #86c232 ;
+}
+
+.form-control{
+    background-color: #222625;
+    border: none;
+    color:#86c232;
+}
+
+.form-control:focus{
+    background-color: #474b4f;
+    color:#86c232;
+}
+
+.form-control:focus::placeholder{
+    color: #86c232;
+}
+
+.nav-link:hover{
+    background-color:#86c232;
+}
+
+.btn-admin{
+    background-color: #86c232;
+    color:#222625;
+}
+.btn-admin:hover{
+    background-color: #61892f;
+    color:#222625;
+}
+.row .totalusers {
+    background-color: #61892f;
+    color: #222625;
+    border-radius: 15px;
+    font-size: 20px;
+    font-style: bold;
+    transition: var(--transition);
+  }
+  
+  .row .totalbookings {
+    background-color: #61892f;
+    color: #222625;
+    border-radius: 15px;
+    font-size: 20px;
+    font-style: bold;
+    transition: var(--transition);
+  }
+  
+  .row .totalusers:hover {
+    transform: scale(1.1);
+  }
+  
+  .row .totalbookings:hover {
+    transform: scale(1.1);
+  }
+
+  .row .nr{
+    color:#86c232;
+  }
+@media screen and (max-width: 991px){
+    #dashboard-menu{
+        height: auto;
+        width: 100%;
+    }
+
+    #main-content{
+        margin-top: 60px;
+        
+    }
+}

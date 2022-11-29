@@ -1,0 +1,114 @@
+.center-vertical{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #6B7064;
+}
+
+.about-us-section{
+    width: 100%;
+    /* max-height: 100vh; */
+    padding: calc(5% + 30px) 0px;
+    /* padding: 15vh; */
+}   
+
+.about-us-section .img-head{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.about-us-section .img-head img{
+    width: 100%;
+    /* transition: transform 5s; */
+    border-radius: 10%;
+
+}
+
+.about-us-section .img-head:hover img{
+    transform: scale(1.2);
+    border-radius: 10%;
+
+}
+
+.about-us-section .img-head::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    /* background-image: linear-gradient(to right bottom, #6B7064,#000); */
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+}
+
+.about-us-section .text-head{
+    font-size: 28px;
+    color: #222625;
+}
+
+.about-us-section .break{
+    width: 80px;
+    height: 3px;
+    background-color: #86c232;
+}
+
+.about-us-section .text{
+    font-size: 16px;
+    color:#444;
+    /* width: 500px; */
+    text-align: justify;
+    
+}
+
+.about-us-section .box{
+    background-color: #222625;
+    color: #86c232;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+    overflow: hidden;
+    height: 140px;
+    width: 140px;
+    align-items: center;
+}
+
+.about-us-section .box i{
+    font-size: 42px;
+}
+
+.about-us-section .box h4{
+    font-size: 14px;
+    color:#86c232;
+}
+
+.about-us-section .box p{
+    font-size: 22px;
+}
+
+.about-us-section .box::after, .about-us-section .box::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #6B7064;
+    border-radius: 50%;
+    transition: transform .3s;
+}
+
+.about-us-section .box::after{
+    left: -25px;
+    top: -25px;
+}
+
+.about-us-section .box::before{
+    right: -25px;
+    bottom: -25px;
+
+}
+
+.about-us-section .box:hover::after, .about-us-section .box:hover::before{
+    transform: scale(1.2);
+}

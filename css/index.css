@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    color: #86c232;
+    font-weight: lighter;
+    font-size:50px;
+    text-align: center;
+    font-family: "Lobster", cursive;
+}
+
+a{
+    text-decoration: none;
+    color: #222625;
+}
+
+a:hover{
+    color: #61892f;
+}
+
+button{
+    background-color: #222625;
+    color:#86c232;
+    border-radius: 15px;
+    font-family: 'Source code pro', monospace;
+    opacity: 0.8;
+    width: 150px;
+    height: 50px;
+}
+
+/* CHILD 1 */
+.index-body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.index-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/geran-de-klerk-qzgN45hseN0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    filter: brightness(70%) blur(2px);
+}
+.index-title h1{
+    font-family: "Lobster", cursive;
+}
+.index-text{
+color:white;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  background-color: #222625;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: justify;
+  font-family: 'Source code pro', monospace;
+}
+
+.txt{
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50%{
+        opacity: 0;
+    }
+    
+}
+
+
+#index-button{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:70%;
+    left:50%;
+    background-color: #222625;
+    color:#86c232;
+    border-radius: 15px;
+    font-family: 'Source code pro', monospace;
+    opacity: 0.8;
+    width: 150px;
+    height: 50px;
+}
+
+#index-button:hover{
+    background-color: #61892f;
+    color: #474b4f;
+}
+/* CHILD 2 */
+
+#child2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+    height:90vh;
+    /*background: rgb(71,75,79);
+    background: linear-gradient(345deg, rgba(71,75,79,1) 0%, rgba(97,137,47,1) 35%); */
+    background-color: #6B7064;
+    background-position: center center;
+    background-attachment: fixed;   
+}   
+
+.index-div{
+    height: 100vh;
+}
+.card{
+    background-color: #222625;
+    border: 1px solid #86c232;
+    transition: 0.5s ease;
+    margin: 0 10px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 400px;
+}
+
+
+.card:hover{
+    transform: scale(1.15);
+    box-shadow: 5px 5px 5px #222625;
+}
+
+
+.card-title{
+    color:#6b6e70;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-title:hover{
+    color:#86c232;
+}
+
+.card-body{
+    color: #61892f;
+}
+#title-child2{
+    margin-top: 7vh;
+    font-style: italic;
+    letter-spacing: .05em;
+    margin-bottom:5vh;
+}
+
+ /* CHILD 3 */
+
+#child3{
+    width: 100%;
+    height: 60vh;
+    background-color: #6B7064;
+}
+.carousel-inner{
+    margin-top: 8vh;
+}
+.name{
+    color:#86c232;
+}
+
+.occupation{
+    color:#222625;
+}
+
+.fa-star{
+    color:#61892f;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    margin-top: 200px;
+}
+
+.text-muted{
+    color: #444!important;
+}

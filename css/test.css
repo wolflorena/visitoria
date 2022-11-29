@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: 'source code pro',sans-serif;
+}
+
+.landing{
+    min-height: 100vh;
+    background: url("/img/on-top-chalet/ontop14.jpg");
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+.big-text{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    font-size: 5rem;
+    font-family: 'source code pro';
+    color:black;
+}
+
+.intro{
+    background: black;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    background: gray;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+.intro-text{
+    color:aquamarine;
+    font-family: 'Source code pro';
+    font-size: 3rem;
+}
+
+.hide{
+    background: black;
+    overflow: hidden;
+}
+
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+}
